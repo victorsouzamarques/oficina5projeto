@@ -1,0 +1,300 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+    background-color: #fff !important;
+}
+.gallery
+{
+    display: inline-block;
+    margin-top: 20px;
+}
+.close-icon{
+border-radius: 50%;
+    position: absolute;
+    right: 5px;
+    top: -10px;
+    padding: 5px 8px;
+}
+.form-image-upload{
+    background: #e8e8e8 none repeat scroll 0 0;
+    padding: 15px;
+}
+.imagem-contatos .img-responsive {
+    padding: 30px;
+    width: 100%;
+    border-radius: 260px;
+}
+.img-responsive {
+    width: 100%;
+    border-radius: 260px;
+}
+#imagem-detalhes{
+    margin: 20px auto;
+    width: 30%;
+}
+.acoesdetalhes {
+    display: inline-block;
+}
+main.py-4 {
+    padding-top: 0px !important;
+}
+.blocos-infos-detalhes {
+    display: block;
+    font-weight: lighter;
+    font-size: 17px;
+}
+.contatos-agenda {
+    box-shadow: 3px 5px 15px 0px #b1b1b1;
+    margin: 0px 10px 35px 10px;
+    text-align: center;
+    display: inline-block;
+    width: 18%;
+    padding: 10px;
+    border-radius: 35px;
+    border: solid #cacaca 1px !important;
+}
+.botoes-contatos {
+    display: inline-block;
+}
+.imagem-contatos {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.btn-warning {
+    color: #212529 !important;
+    background-color: #fff !important;
+    border-color: #484848 !important;
+}
+.btn-warning:hover {
+    color: #fff !important;
+    background-color: #484848 !important;
+    border-color: #000000 !important;
+}
+.btn-warning:not(:disabled):not(.disabled).active, .btn-warning:not(:disabled):not(.disabled):active, .show>.btn-warning.dropdown-toggle {
+    color: #212529;
+    background-color: #eaeaea !important;
+    border-color: #000000 !important;
+}
+div#criar-novo-contato a {
+    font-size: 40px;
+}
+
+div#criar-novo-contato {
+    text-align: right;
+    padding-right: 10px;
+}
+div#usuario-logado {
+    text-align: center;
+    margin: 20px 0px;
+}
+.navbar-laravel {
+    background-color: #484848 !important;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.04);
+    box-shadow: 0 2px 4px rgba(0,0,0,.04);
+}
+#logo {
+    max-width: 100px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(245, 248, 250) !important;
+}
+i.fas.fa-plus-circle {
+    color: #484848;
+}
+.btn-danger {
+    color: #fff !important;
+    background-color: #484848 !important;
+    border-color: white !important;
+}
+.btn-danger:hover {
+    color: #484848 !important;
+    background-color: white !important;
+    border-color: #484848 !important;
+}
+.btn-danger:not(:disabled):not(.disabled).active, .btn-danger:not(:disabled):not(.disabled):active, .show>.btn-danger.dropdown-toggle {
+    color: #484848 !important;
+    background-color: white !important;
+    border-color: #484848 !important;
+}
+nav .container {
+    max-width: 1240px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px auto;
+}
+div#conteudo-contatos {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0px auto;
+}
+.voltar-inicial {
+    text-align: left;
+    /* color: #484848; */
+}
+.voltar-inicial a {
+    color: #484848;
+    font-weight: bold;
+    font-size: 20px;
+}
+div#conteudo-show {
+    max-width: 1240px;
+    margin: 0px auto;
+}
+.voltar-inicial a:hover {
+    color: #484848;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+i.far.fa-arrow-alt-circle-left {
+    color: #484848;
+    font-size: 45px;
+}
+.imagem-contatos small {
+    font-weight: bold;
+    color: #484848 !important;
+}
+.imagem-contatos a:hover {
+    font-weight: bold;
+    color: #484848 !important;
+    text-decoration: none !important;
+}
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #ffffff !important;
+    border-radius: .3rem;
+}
+#welcome-home #login {
+    left: -1000px;
+    position: absolute;
+}
+#welcome-home #app {
+    display: none;
+}
+a#logar-botao {
+    cursor: pointer;
+}
+#welcome-home .col-sm-2.offset-md-2 {
+    padding: 0px;
+}
+body#welcome-home{
+    background-image: url("/images/background-image-5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+div#texto-home {
+    position: absolute;
+    right: 100px;
+}
+.col-md-4.bloco-login {
+    position: absolute;
+    left: 20px;
+}
+div#titulo-pagina-inicial {
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+#login{
+    top: 150px;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}
+#formulario-criar{
+    margin: 0px auto;
+}
+section#criar-form {
+    text-align: center;
+        margin-top: 10px;
+}
+#editar-pagina{
+    text-align: center;
+    margin-top: 20px;
+}
+div#titulo-pagina-inicial h1 {
+    color: white;
+}
+div#botao-logar-home {
+    margin: 0px auto;
+}
+a#logar-botao {
+    display: block;
+    border: 1px solid #2d2d2d;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #191411;
+    color: white;
+    opacity: 0.9;
+    font-size: 20px;
+    margin: 0px auto;
+    transition: 0.9s;
+}
+a#logar-botao:hover {
+    opacity: 1;
+    transition: 0.9s;
+}
+#login .btn-primary {
+    color: #fff;
+    background-color: #18130f;
+    border-color: #000000;
+}
+#login .btn-primary {
+    color: #fff;
+    background-color: #18130f;
+    border-color: #000000;
+    transition: 0.5s;
+}
+#login .btn-primary:hover {
+    transition: 0.5s;
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+#login-registrar p, #login-registrar a{
+    font-size: 12px;
+}
+.login-registrar-bloco {
+    margin-bottom: 10px;
+    padding: 0px !important;
+}
+#registrar-pagina .voltar-inicial{
+    margin-top: 30px;
+}
+#formulario-pesquisa{
+    display: none;
+}
+.fa-search {
+    font-size: 35px;
+    color: #484848;
+    cursor: pointer;
+}
+.pesquisa-cria-bloco {
+    display: inline-block;
+}
+.pesquisa-cria {
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+form#formulario-pesquisa {
+    margin: 0px auto;
+}
+form#formulario-pesquisa button {
+    background-color: #484848;
+    border-color: #7b7b7b;
+}
+form#formulario-pesquisa button:hover {
+    background-color: #fff;
+    border-color: #7b7b7b;
+    color: black;
+}
+#procurar-cadastros-bloco-fechar{
+    display: none;
+}
