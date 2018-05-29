@@ -20,7 +20,7 @@
 </div>
 <div class="form-group col-md-12">
 <label for="description">Telefone</label>
-<input type="text" value="{{$contato->telefone}}" class="form-control" id="contatosTelefone" name="telefone">
+<input type="text" value="{{$contato->telefone}}" class="form-control" maxlength="15" id="telefone" name="telefone">
 </div>
 <div class="form-group col-md-12">
 <label for="description">Aniversário</label>

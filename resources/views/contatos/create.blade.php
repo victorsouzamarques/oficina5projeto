@@ -22,7 +22,7 @@
 </div>
 <div class="form-group col-md-12">
 <label for="telefone">Telefone</label>
-<input type="text" class="form-control" id="contatosTelefone" name="telefone">
+<input type="text" class="form-control" maxlength="15" id="telefone" name="telefone">
 </div>
 <div class="form-group col-md-12">
 <label for="nascimento">Aniversário</label>

@@ -57,7 +57,7 @@ class ContatosController extends Controller
                 'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
                 'nome' => 'required',
                 'email' => 'required',
-                'telefone' => 'required',
+                'telefone' => 'required|max:11',
                 'nascimento' => 'required',
         ]);
         $contato =  Contatos::create(['usuario' => $request->usuario,'image' => time().'.'.$request->image->getClientOriginalExtension(), 'nome' => $request->nome, 'email' => $request->email, 'telefone' => $request->telefone,'nascimento' => $request->nascimento]);
@@ -103,7 +103,7 @@ class ContatosController extends Controller
             // 'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             'nome' => 'required',
             'email' => 'required',
-            'telefone' => 'required',
+            'telefone' => 'required|max:11',
             'nascimento' => 'required',
         ]);
         
